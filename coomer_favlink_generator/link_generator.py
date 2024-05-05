@@ -31,7 +31,7 @@ def generate_links(file_path):
         elif item['service'] == 'fansly':
             link = f"https://coomer.su/fansly/user/{item['id']}"
         # Adding candfans profiles to favorites doesn't even work in coomer but whatever
-        elif item['service'] == 'fansly':
+        elif item['service'] == 'candfans':
             link = f"https://coomer.su/candfans/user/{item['id']}"
         else:
             continue
